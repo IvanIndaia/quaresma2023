@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.preagacao {
+    /* width: 362px; */
+    display: flex;
+    flex-direction: column;
+}
