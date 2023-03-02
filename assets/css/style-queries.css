@@ -11,31 +11,21 @@
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
-    .preagacao {
-        display: grid;
+    .colVideos {
         grid-template-columns: 1fr 1fr;
-        transition: .5s;
     }
-
-    /* .classifica {
-        grid-template-columns: 1fr;
-        padding: 80px 100px;
-    } */
 }
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {
-    .preagacao {
-        display: grid;
+    .colVideos {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
-    .preagacao {
-        display: grid;
+    .colVideos {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        background-color: red;
     }
 }

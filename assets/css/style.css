@@ -1,7 +1,23 @@
 @charset "UTF-8";
 
-.preagacao {
-    /* width: 362px; */
-    display: flex;
-    flex-direction: column;
+
+iframe {
+    width: 380px;
+    height: 220px;
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.colVideos {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    transition: .5s;
 }
