@@ -17,15 +17,20 @@
 }
 
 /* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
+@media only screen and (min-width: 1089px) {
     .colVideos {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 /* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
     .colVideos {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    iframe {
+        width: 370px;
+        height: 210px;
+        background-color: red;;
     }
 }
