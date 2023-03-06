@@ -33,6 +33,10 @@ iframe {
     transition: .5s;
 }
 
+.nav-link:hover{
+    background-color: red;
+}
+
 .tab-pane > h3 {
     background-color: rgb(178, 226, 246);
     text-align: center;
