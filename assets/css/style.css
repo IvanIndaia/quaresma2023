@@ -47,3 +47,9 @@ iframe {
     font-family: 'Shantell Sans', cursive;
     color: rgba(200, 234, 249, 0.537);;
 }
+
+.nav-item > .active {
+    color: red;
+}
+
+ 
