@@ -48,8 +48,10 @@ iframe {
     color: rgba(200, 234, 249, 0.537);;
 }
 
-.nav-item > .active {
-    color: red;
+#linkYou {
+    color: rgba(255, 34, 0, 0.642);
 }
-
  
+.header > h4 > a {
+    text-decoration: none;
+}
